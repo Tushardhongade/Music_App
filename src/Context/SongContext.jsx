@@ -7,7 +7,7 @@ export const SongContextState = ({ children }) => {
   if(document.domain === "localhost"){
     __URL__ = "http://localhost:1337"
   }else{
-    __URL__ = "https://music-app-backendp.vercel.app/"
+    __URL__ = "https://music-app-backendp.vercel.app"
   }
   const audio = new Audio();
   const song = {
